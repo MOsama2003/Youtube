@@ -18,6 +18,6 @@ const uploadResult = async (localFilePath) => {
         fs.unlinkSync(localFilePath)
         return null;
     }
-};
+}; 
 
 export { uploadResult }
